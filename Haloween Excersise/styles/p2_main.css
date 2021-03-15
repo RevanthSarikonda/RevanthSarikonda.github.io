@@ -1,0 +1,62 @@
+/* elements */
+body {
+	font-family: sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+}
+a:link {
+	font-size: 120%;
+	color: orange;
+	font-weight: bold;
+}
+a:focus, a:hover {
+	
+	color: green;
+}
+
+/* header */
+header h2 {
+	font-size: 250%;
+	color: orange;
+	font-style: italic;
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	text-indent: 30px;
+}
+header img {
+	float: left;
+}
+.shadow {
+	text-shadow: 2px 2px 2px black;
+}
+/* main content */
+main h1::first-letter {
+  font-size: 210%;
+}
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: black;
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+li {
+    margin-bottom: 8px;
+}
+li:last-child {
+ margin-bottom: 0px;
+}
+
+/*footer */
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
