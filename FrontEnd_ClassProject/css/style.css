@@ -1,0 +1,130 @@
+body {
+  
+    background-image: url('../cards/background.jpg');
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.deck {
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    width: 100px;
+    height: 153px;
+    background-image: url('../cards/blue_back.png');
+    background-size: cover;
+}
+
+.remaining {
+    text-align: center;
+    padding-top: 60%;
+    font-size: 1.7rem;
+}
+
+.buttons {
+  /*  padding-top: 83vh; */
+  /*  margin-top: 3vh;  */
+    text-align: center;
+    position: absolute;
+    bottom: 7vh;
+    left: 36vw;
+
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    margin: 0 10px;
+    padding: 2px 20px;
+    font-size: 2rem;
+
+    background-color: white;
+    border: none;
+    border-radius: 41px;
+}
+
+/*
+.button1
+{
+  color: #00cc00;
+}
+
+.button2
+{
+  color:  #cccc00;
+}
+
+.button3
+{
+  color: #ff0000;
+}
+*/
+
+.winner {
+    text-align: center;
+    padding-top: 67vh;
+    font-size: 4rem;
+    font-weight: bold;
+    color: gold;
+}
+
+.info {
+    position: absolute;
+    left: 0;
+    top: 36vh;
+    width: 18vw;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
+.platform {
+    width: 48vw;
+    height: 60vh;
+    display: inline-block;
+    position: absolute;
+  /*  bottom: 1vh;  */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.player {
+    left: 1vw;
+}
+
+.dealer {
+    right: 1vw;
+}
+
+.shadow {
+    box-shadow: -11px 11px 13px 2px rgba(0, 255, 128);
+}
+
+.score {
+    padding-top: 10px;
+    font-size: 3rem;
+}
+
+.card-table {
+    width: 100%;
+    height: 85%;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    display: inline-block;
+    margin: 7px 3px;
+}
+
+.blocked {
+    box-sizing: border-box;
+    /*  background-image: url('../cards/blue_back.png'); */
+    border: 50px solid rgb(0, 255, 0);
+}
